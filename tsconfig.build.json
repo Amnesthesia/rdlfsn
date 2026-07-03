@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2022",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "outDir": "./build-temp",
+    "rootDir": "./src",
+    "noEmit": true
+  },
+  "include": [
+    "src/build-watch.tsx",
+    "src/components/**/*"
+  ],
+  "exclude": [
+    "src/main.ts"
+  ]
+}

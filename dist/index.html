@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Victor Rudolfsson - Resume</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/><script src="https://cdn.tailwindcss.com"></script><style>
+      @media print {
+        .no-print { display: none !important; }
+        body { 
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+      }
+      @layer base {
+        @page {
+          margin: 0;
+        }
+        @media print {
+          details {
+            /* Force details to be open when printing */
+            display: block;
+          }
+        }
+
+        summary::marker {
+          display: none;
+          content: '';
+        }
+        summary::before {
+          content: '❯ ';
+          @apply inline-block mr-2 transition-transform;
+        }
+
+        details[open] summary::before {
+          @apply rotate-90;
+        }
+      }
+    </style><style>
+        h2 > strong {
+          float: right;
+          font-weight: normal;
+          font-size: 0.875rem;
+        }
+        h2:has(+ p > strong) {
+          margin-top: 12px;
+          margin-bottom: 0px !important;
+        }
+        h2 + p > strong {
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        h3 > strong {
+          float: right;
+          font-weight: normal;
+          font-size: 0.875rem;
+        }
+        h3:has(+ p > em), h3:has(+ details), h2:has(+ details) {
+          margin-bottom: 0px !important;
+        }
+        h2 + details, h3 + details {
+          margin-bottom: 16px;
+        }
+        h3 + p > em {
+          margin-top: 0;
+          margin-bottom: 0;
+          font-size: 0.875rem;
+        }
+        details > summary > h2,
+        details > summary > h3 {
+          display: inline;
+        }
+
+        summary > h3 + p > i {
+          margin-left: 0.825rem;
+        }
+        summary > h3 + p > strong {
+          margin-left: 0.825rem;
+        }
+        summary > h2 + p > strong {
+          margin-left: 0.825rem;
+        }
+        details > p {
+          margin-left: 0.825rem;
+        }
+      </style><script src="js/markdown.js"></script></head><body class="bg-gray-100 min-h-screen"><div class="container mx-auto px-0 max-w-4xl gap-2 bg-white"><div class="grid grid-cols-1 print:grid-cols-3 md:grid-cols-3 gap-2"><div class="bg-gray-900 text-white shadow-lg flex flex-row md:flex-col print:flex-col"><div class="flex justify-center m-6"><img src="https://avatars.githubusercontent.com/u/3265008?v=4" alt="Avatar" class="w-48 h-48 rounded-full border-4 border-gray-300 shadow-lg"/></div><section class="rounded-lg p-6" id="contact"><h2 class="text-2xl font-bold mb-4 border-b-2 border-purple-500 pb-2">Contact</h2><div class="markdown-content"><div><p><i class="fa-solid fa-envelope fa-lg text-inherit hover:text-blue-200">&nbsp;</i> <span class="text-xs"><a href="mailto:victor.rudolfsson@icloud.com">victor.rudolfsson@icloud.com</a></span></p>
+<p><i class="fa-solid fa-phone fa-lg text-inherit hover:text-blue-200">&nbsp;</i> +61 473 066 672</p>
+<p><i class="fa-brands fa-linkedin fa-lg text-inherit hover:text-blue-200">&nbsp;</i> <a href="https://www.linkedin.com/in/victor-rudolfsson-7b299923/">LinkedIn</a></p>
+<p><i class="fa-brands fa-github fa-lg text-inherit hover:text-blue-200">&nbsp;</i> <a href="https://github.com/amnesthesia">GitHub</a></p>
+</div></div></section><section class="rounded-lg p-6" id="skills"><h2 class="text-2xl font-bold mb-4 border-b-2 border-red-500 pb-2">Skills</h2><div class="markdown-content"><ul class="list-none"><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-plain.svg" class="w-6 h-6 mt-1"/><span class="text-white">Ruby</span></li><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" class="w-6 h-6 mt-1"/><span class="text-white">TypeScript</span></li><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" class="w-6 h-6 mt-1"/><span class="text-white">Python</span></li><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" class="w-6 h-6 mt-1"/><span class="text-white">C/++</span></li></ul><p class="my-4 border-b"><b>Infra</b></p><ul class="list-none"><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" class="w-6 h-6 mt-1"/><span class="text-white">AWS</span></li><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/digitalocean/digitalocean-original.svg" class="w-6 h-6 mt-1"/><span class="text-white">DigitalOcean</span></li><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" class="w-6 h-6 mt-1"/><span class="text-white">Github Actions</span></li><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" class="w-6 h-6 mt-1"/><span class="text-white">Docker</span></li><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" class="w-6 h-6 mt-1"/><span class="text-white">Redis</span></li><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elasticsearch/elasticsearch-original.svg" class="w-6 h-6 mt-1"/><span class="text-white">ElasticSearch</span></li></ul><p class="my-4 border-b"><b>Frameworks</b></p><ul class="list-none"><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apollographql/apollographql-original.svg" class="w-6 h-6 mt-1 invert"/><span class="text-white">Apollo</span></li><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg" class="w-6 h-6 mt-1"/><span class="text-white">GraphQL</span></li><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" class="w-6 h-6 mt-1"/><span class="text-white">PostgreSQL</span></li><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/expo/expo-original.svg" class="w-6 h-6 mt-1 invert"/><span class="text-white">Expo</span></li><li class="flex space-y-2 items-center justify-start gap-4"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original.svg" class="w-6 h-6 mt-1"/><span class="text-white">React/Native</span></li></ul></div></section></div><div class="md:col-span-2 print:col-span-2"><header class="p-6 mt-8 markdown-content flex flex-col items-center justify-center"><p><h1 class="mt-4 mb-0 pb-0" style="margin-bottom:0px;">Victor Rudolfsson</h1><strong>Full Stack - Software Engineer</strong></p><p class="mt-6"><i>Passionate about creating elegant solutions to complex problems</i></p></header><section class="rounded-lg p-6" id="experience"><h2 class="text-2xl font-bold mb-4 border-b-2 border-blue-500 pb-2">Experience</h2><div class="markdown-content"><div><details>
+  <summary>
+    <h2>Senior Software Engineer <strong>Jun 2021 - Present</strong></h2>
+    <p><strong>Zavy360</strong></p>
+  </summary>
+
+<p><i class="text-sm/2">Zavy360 is a cloud-based dental practice management platform that integrates appointment scheduling, treatment planning, patient communication, and billing into a single system. It includes a patient-facing mobile app, helping dental practices streamline operations and improve patient engagement.</i></p>
+</details>
+
+<p>Working remotely as a full stack software engineer at Zavy360, I’ve helped modernize their tech stack, and revamp an entire legacy application into a competitive practice management system, launch their mobile app, and architect infrastructure all the way from local development to production.</p>
+<ul>
+<li><strong>Architected and optimized infrastructure</strong>: built CI/CD pipelines using self-hosted Github Actions runners in k8s reducing build + deploy to &lt;10 minutes; implemented WAF and ElasticSearch, and set up AWS Fargate server infrastructure</li>
+<li><strong>Dramatically improved performance</strong>: reduced bundle size by 75%, and average GraphQL API response times down to &lt; 150ms for complex queries, implemented frontend caching through CloudFront and backend caching through Redis, migrating frontend to monorepo with typescript project references</li>
+<li><strong>Delivered key features</strong>: Global Search, Document System (V1/V2), Patient App (native), Notes, interactive Form builder, template editor, ACLs and permission system, metrics and monitoring</li>
+<li><strong>Enhanced reliability and security</strong>: Set up JWT revocation, GraphQL schema compatibility checks, WAF, and data anonymization for compliance.</li>
+</ul>
+<details>
+  <summary>
+    <h2>Software Engineer <strong>Jun 2016 - Jun 2021</strong></h2>
+    <p><strong>mnemonic</strong></p>
+  </summary>
+</details>
+
+<p>After a year of doing a lot of software development for the Network Security department, I transitioned to the Software Development department to become one of the first members of the new frontend team. Here, I&#39;d work together with 13 other developers to modernize, design and implement the new React frontend for mnemonic&#39;s flagship product Argus, which processes tens of billions of security events every day.</p>
+<ul>
+<li><strong>Mobile:</strong> Lead development of the Argus mobile app using Flutter with signature-based FaceID authentication</li>
+<li><strong>Testing:</strong> Designed and built an ephemeral selenium-based testing system capable of spinning up required microservices and frontend micro-apps in a dockerized environment to execute isolated end-to-end tests</li>
+</ul>
+<details>
+  <summary>
+    <h2>Network Security Analyst <strong>Jun 2015 - Jun 2016</strong></h2>
+    <p><strong>mnemonic</strong></p>
+  </summary>
+
+<p><i class="text-sm/2">mnemonic is a Norwegian cybersecurity company headquartered in Oslo, providing services such as managed detection and response, threat intelligence, incident response, and security testing, supported by its proprietary Argus platform. Known for its independent, science-driven approach and strong customer retention, mnemonic works with major enterprises and government agencies in Europe and is recognized by Gartner and Europol as a trusted security partner.</i></p>
+</details>
+
+<p>My role at mnemonic began right after university, where I was initially hired to work as a Network Security Analyst helping design a signature management system for IDS/IDPS, with 20% of my time dedicated to assisting in with analyzing potential network intrusions in the SOC.</p>
+<details>
+  <summary>
+    <h2>Web Developer <strong>Aug 2019 - May 2020</strong></h2>
+    <p><strong>Whisqu Graphic</strong></p>
+  </summary>
+
+<p><i class="text-sm/2">Whisqu Graphic AB is a small Swedish software company based in Skövde, developing and distributing software for graphics, and vinyl plotters used for sign cutting with its flagship SignCut Pro</i></p>
+</details>
+
+<p>At Whisqu Graphic, I managed and developed the webshop, licensing system, and customer portal, and eventually set up an identical environment in China for Whisqu Asia.</p>
+</div></div></section><section class="rounded-lg p-6" id="projects"><h2 class="text-2xl font-bold mb-4 border-b-2 border-green-500 pb-2">Projects</h2><div class="markdown-content"><div><details>
+  <summary>
+  <h3>Travel Guide for Firenze, Italy <strong>2017</strong></h3>
+  <p>
+    <i>Freelance, Remote</i>
+  </p>
+</summary>
+
+
+<p>Freelance mobile app for Gruppo Editoriale SRL, Firenze</p>
+</details>
+
+<details>
+  <summary>
+    <h3>President of the International Students Union <strong>2013</strong></h3>
+    <p><i>Norwegian Institute of Science and Technology, Gjøvik, Norway</i></p>
+  </summary>
+</details>
+<details>
+  <summary>
+    <h3>Infrastructure Setup of Whisqu Asia <strong>2012</strong></h3>
+    <p><i>Shenzhen, People's Republic of China</i></p>
+  </summary>
+
+<p>  Worked together with Whisqu Graphic&#39;s Asia branch to set up the China-facing webshop and licensing system</p>
+</details>
+<details>
+  <summary>
+    <h3>Project Assignment on Customer Education <strong>2012</strong></h3>
+    <p><i>Whisqu Graphic, Grand Bay, AL, USA</i></p>
+  </summary>
+
+<p>  Developed interactive knowledgebase and user manuals together with Whisqu Graphic&#39;s American sales representative.</p>
+</details></div></div></section><section class="rounded-lg p-6" id="education"><h2 class="text-2xl font-bold mb-4 border-b-2 border-yellow-500 pb-2">Education</h2><div class="markdown-content"><div><h3>SANS 503: Certified Intrusion Analyst <strong>2015</strong></h3>
+<p><em>SANS GIAC, Baltimore, USA</em></p>
+<h3>Bachelor of Science in Information Security <strong>2012 - 2015</strong></h3>
+<p><em>Norwegian University of Science and Technology</em></p>
+<h3>Computer Game and Web Programming <strong>2006 - 2009</strong></h3>
+<p><em>Västerhöjd High School, Skövde, Sweden</em></p>
+</div></div></section></div></div></div></body></html>

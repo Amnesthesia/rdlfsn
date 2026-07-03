@@ -1,0 +1,42 @@
+{
+  "template": {
+    "path": "templates/index.html",
+    "defaultTitle": "Your Name"
+  },
+  "content": {
+    "sections": {
+      "header": {
+        "file": "content/header.md",
+        "required": true
+      },
+      "experience": {
+        "file": "content/experience.md",
+        "required": true
+      },
+      "projects": {
+        "file": "content/projects.md",
+        "required": false
+      },
+      "contact": {
+        "file": "content/contact.md",
+        "required": true
+      },
+      "skills": {
+        "file": "content/skills.md",
+        "required": true
+      },
+      "education": {
+        "file": "content/education.md",
+        "required": false
+      }
+    }
+  },
+  "output": {
+    "directory": "dist",
+    "filename": "index.html"
+  },
+  "build": {
+    "cleanBefore": true,
+    "verbose": true
+  }
+}

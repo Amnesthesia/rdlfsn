@@ -1,0 +1,42 @@
+{
+  "name": "@rudolfsson/victor",
+  "version": "1.0.0",
+  "description": "A static HTML resume website with TailwindCSS and Markdown content",
+  "main": "index.html",
+  "scripts": {
+    "build": "npm run clean && npm run build:content && npm run build:client",
+    "build:content": "tsx --tsconfig tsconfig.build.json src/build-watch.tsx",
+    "build:client": "tsc --build",
+    "dev": "npm run clean && concurrently \"npm run dev:content\" \"npm run dev:client\" \"npm run dev:serve\"",
+    "dev:content": "tsx --tsconfig tsconfig.build.json --watch src/build-watch.tsx",
+    "dev:client": "tsc --watch",
+    "dev:serve": "wait-on dist/index.html && live-server dist --port=8000 --no-browser --ignore=node_modules --wait=200",
+    "serve": "live-server dist --port=8000",
+    "open": "open http://localhost:8000",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist && mkdir -p dist/js"
+  },
+  "keywords": [
+    "resume",
+    "html",
+    "tailwindcss",
+    "markdown"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^10.23.1",
+    "preact-render-to-string": "^6.5.7"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.2",
+    "@types/marked": "^6.0.0",
+    "@types/node": "^20.14.10",
+    "concurrently": "^8.2.2",
+    "live-server": "^1.2.2",
+    "marked": "^13.0.1",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "wait-on": "^7.2.0"
+  }
+}

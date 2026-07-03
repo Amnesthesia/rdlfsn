@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A static HTML resume website with TailwindCSS and Markdown content",
   "main": "index.html",
+  "packageManager": "pnpm@10.33.0",
   "scripts": {
     "build": "npm run clean && npm run build:content && npm run build:client",
     "build:content": "tsx --tsconfig tsconfig.build.json src/build-watch.tsx",

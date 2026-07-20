@@ -34,6 +34,18 @@ Freelance mobile app for Gruppo Editoriale SRL, Firenze
 
 <details>
   <summary>
+  <h3>idsanity <strong>2014 - 2015</strong></h3>
+  <p>
+    <i>Norwegian Institute of Science and Technology, Gjøvik, Norway</i>
+  </p>
+  </summary>
+
+  Python-based distributed management system for managing and deploying Suricata IDS signatures
+</details>
+
+
+<details>
+  <summary>
     <h3>President of the International Students Union <strong>2013</strong></h3>
     <p><i>Norwegian Institute of Science and Technology, Gjøvik, Norway</i></p>
   </summary>

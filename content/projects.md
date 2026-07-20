@@ -1,6 +1,6 @@
 <details>
   <summary>
-  <h3><a href="https://www.dothings.lol/"> DoThings.lol <strong>2026</strong></h3>
+  <h3><a href="https://www.dothings.lol/"> DoThings.lol</a> <strong>2026</strong></h3>
   <p>
     <i>Just for Fun</i>
   </p>

@@ -1,5 +1,15 @@
 <details>
   <summary>
+  <h3><a href="https://www.dothings.lol/"> DoThings.lol <strong>2026</strong></h3>
+  <p>
+    <i>Just for Fun</i>
+  </p>
+
+  Crawl the web for events in Brisbane, Sunshine Coast and Gold Coast, aggregate and curate them for display in a nice format. Refreshes weekly. Saves us all time looking for things to do.
+</summary>
+
+<details>
+  <summary>
   <h3>Travel Guide for Firenze, Italy <strong>2017</strong></h3>
   <p>
     <i>Freelance, Remote</i>

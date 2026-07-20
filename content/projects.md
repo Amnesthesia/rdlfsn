@@ -8,6 +8,18 @@
 
   Crawl the web for events in Brisbane, Sunshine Coast and Gold Coast, aggregate and curate them for display in a nice format. Refreshes weekly. Saves us all time looking for things to do.
 </details>
+
+<details>
+  <summary>
+  <h3>OpenManifest <strong>2022 - 2024</strong></h3>
+  <p>
+    <i>Just for Fun</i>
+  </p>
+  </summary>
+
+  Manifest management for skydiving dropzones in Rails with React + React Native frontends
+</details>
+
 <details>
   <summary>
   <h3>Travel Guide for Firenze, Italy <strong>2017</strong></h3>

@@ -1,5 +1,7 @@
 # Victor Rudolfsson
 
-**Software Engineer | Full Stack**
+**Senior Software Engineer — Platform & Infrastructure**
 
-*Passionate about creating elegant solutions to complex problems*
+*Platform engineer with focus on infrastructure, authentication, API
+and integrations for a clinical SaaS serving hundreds of Australian
+dental practices. Rails · TypeScript · AWS · Kubernetes · Health SaaS*

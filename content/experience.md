@@ -3,11 +3,9 @@
     <h2>Senior Software Engineer — Platform, Infrastructure & Integrations <strong>Jun 2021 – Present</strong></h2>
     <p><strong>Zavy360</strong></p>
   </summary>
-
-<i class="text-sm/2">Zavy360 is a cloud-based dental practice management platform that integrates appointment scheduling, treatment planning, patient communication, and billing into a single system. It includes a patient-facing mobile app, helping dental practices streamline operations and improve patient engagement.</i>
 </details>
 
-**Zavy360** — Australian cloud dental practice management SaaS with a small core engineering team, serving hundreds of Australia's dental practices and thousands of patients. Here I've been the owner of infrastructure and authentication, Rails GraphQL + REST API, AI integration, third party integrations (Healthengine, VoiceStack, Medipass, CoTreat), API-key and webhook management, build pipeline, performance optimization, logging and monitoring, as well as multiple integral frontend platforms.
+Australian cloud dental practice management SaaS with a small core engineering team, serving hundreds of Australia's dental practices and thousands of patients. Here I've been the owner of infrastructure and authentication, Rails GraphQL + REST API, AI integration, third party integrations (Healthengine, VoiceStack, Medipass, CoTreat), API-key and webhook management, build pipeline, performance optimization, logging and monitoring, as well as multiple integral frontend platforms.
 
 - **Infrastructure and delivery**: Architected and operate the full AWS
   environment (Fargate, Kubernetes, WAF, Elasticsearch) from development to

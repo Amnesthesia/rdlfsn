@@ -1,18 +1,37 @@
 <details>
   <summary>
-    <h2>Senior Software Engineer <strong>Jun 2021 - Present</strong></h2>
+    <h2>Senior Software Engineer — Platform, Infrastructure & Integrations <strong>Jun 2021 – Present</strong></h2>
     <p><strong>Zavy360</strong></p>
   </summary>
 
 <i class="text-sm/2">Zavy360 is a cloud-based dental practice management platform that integrates appointment scheduling, treatment planning, patient communication, and billing into a single system. It includes a patient-facing mobile app, helping dental practices streamline operations and improve patient engagement.</i>
 </details>
 
-Working remotely as a full stack software engineer at Zavy360, I’ve helped modernize their tech stack, and revamp an entire legacy application into a competitive practice management system, launch their mobile app, and architect infrastructure all the way from local development to production.
+**Zavy360** — Australian cloud dental practice management SaaS with a small core engineering team, serving hundreds of Australia's dental practices and thousands of patients. Here I've been the owner of infrastructure and authentication, Rails GraphQL + REST API, AI integration, third party integrations (Healthengine, VoiceStack, Medipass, CoTreat), API-key and webhook management, build pipeline, performance optimization, logging and monitoring, as well as multiple integral frontend platforms.
 
-- **Architected and optimized infrastructure**: built CI/CD pipelines using self-hosted Github Actions runners in k8s reducing build + deploy to <10 minutes; implemented WAF and ElasticSearch, and set up AWS Fargate server infrastructure
-- **Dramatically improved performance**: reduced bundle size by 75%, and average GraphQL API response times down to < 150ms for complex queries, implemented frontend caching through CloudFront and backend caching through Redis, migrating frontend to monorepo with typescript project references
-- **Delivered key features**: Global Search, Document System (V1/V2), Patient App (native), Notes, interactive Form builder, template editor, ACLs and permission system, metrics and monitoring
-- **Enhanced reliability and security**: Set up JWT revocation, GraphQL schema compatibility checks, WAF, and data anonymization for compliance.
+- **Infrastructure and delivery**: Architected and operate the full AWS
+  environment (Fargate, Kubernetes, WAF, Elasticsearch) from development to
+  production; built CI/CD on self-hosted GitHub Actions runners in k8s,
+  cutting build-and-deploy from 30+ minutes to under 6 minutes with zero downtime.
+- **Authentication and access control**: Designed the auth layer — JWT
+  issuance and revocation, and a granular ACL/permission system
+  across clinical and administrative roles.
+- **Third Party Integrations**: Built Medicare and DVA claiming
+  and the third-party integration layer (Medipass/Tyro, Healthengine,
+  VoiceStack, CoTreat) with API key management, processing thousands of claims per month.
+- **LLM integration**: Built the production OpenAI integration for clinical
+  documentation assistance — streaming completions into a rich-text editor
+  with cancellation and undo support, plus rate limiting, cost controls and
+  fallback handling on a third-party dependency in a clinical workflow.
+- **Performance**: Cut GraphQL p95 response times to <100ms on complex
+  queries and reduced frontend bundle size 75% via CloudFront edge caching, Redis,
+  and migration to a TypeScript project-references monorepo
+- **Product delivery**: Shipped the native iOS/Android patient app
+  (Zavy Connect), global search, document system, interactive form builder and template editor, clinical notes,
+  and the metrics and monitoring stack.
+
+**Stack**: Ruby on Rails + ActionCable, TypeScript, GraphQL, REST, React, React Native, Rspack, Node, PostgreSQL,
+Redis, AWS (Fargate, CloudFront, WAF, S3), Kubernetes, Terraform, ElasticSearch, GitHub Actions
 
 
 <details>
